@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import *
+from .views import generate_text, analyze_context
 
 urlpatterns = [
     path('generate/', generate_text, name='generate_text'),

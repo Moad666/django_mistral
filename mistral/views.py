@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-# prevent unauthorized POST requests from malicious websites.
+# Cross-Site Request Forgery : prevent unauthorized POST requests from malicious websites.
 from django.views.decorators.csrf import csrf_exempt
 # for making HTTP requests
 import requests
